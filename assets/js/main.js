@@ -107,4 +107,35 @@
       window.scrollTo({ top: tgt.getBoundingClientRect().top + scrollY - offset, behavior: 'smooth' });
     });
   });
+
+  /* ── Parallax on mood sections & hero ────────────── */
+  const parallaxEls = document.querySelectorAll('.mood-section__bg, .hero__bg');
+  if (parallaxEls.length && window.matchMedia('(min-width: 769px)').matches) {
+    const onScroll = () => {
+      parallaxEls.forEach(el => {
+        const rect  = el.closest('section, .hero')?.getBoundingClientRect();
+        if (!rect) return;
+        const ratio = (window.innerHeight - rect.top) / (window.innerHeight + rect.height);
+        el.style.transform = `translateY(${(ratio - 0.5) * 60}px)`;
+      });
+    };
+    window.addEventListener('scroll', onScroll, { passive: true });
+  }
+
+  /* ── Image fade-in on load ────────────────────────── */
+  document.querySelectorAll('.img-reveal').forEach(img => {
+    if (img.complete) {
+      img.classList.add('is-loaded');
+    } else {
+      img.addEventListener('load', () => img.classList.add('is-loaded'));
+    }
+  });
+
+  /* ── Gallery item keyboard accessibility ──────────── */
+  document.querySelectorAll('.gallery-item').forEach(item => {
+    item.setAttribute('tabindex', '0');
+    item.addEventListener('keydown', e => {
+      if (e.key === 'Enter') item.querySelector('a')?.click();
+    });
+  });
 })();

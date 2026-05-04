@@ -5,39 +5,13 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Reasco Immobilien AG – Bauherrenberatung, Architektur &amp; Vermarktung in der Nordostschweiz</title>
   <meta name="description" content="Reasco begleitet Eigentümer und Investoren in der Region Schaffhausen, Thurgau und Zürich – von der Bauherrenberatung über Architektur bis zur Immobilienvermarktung. Seit 2003.">
-  <meta name="robots" content="index, follow">
   <link rel="canonical" href="https://reasco.immo/">
-
-  <!-- Open Graph -->
-  <meta property="og:type"        content="website">
-  <meta property="og:url"         content="https://reasco.immo/">
-  <meta property="og:title"       content="Reasco Immobilien AG – Ihr Partner in der Nordostschweiz">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://reasco.immo/">
+  <meta property="og:title" content="Reasco Immobilien AG – Ihr Partner in der Nordostschweiz">
   <meta property="og:description" content="Ganzheitliche Immobilienbegleitung: Bauherrenberatung, Architektur, Vermarktung und Energieberatung aus einer Hand.">
-  <meta property="og:image"       content="assets/images/hero-home.webp">
-
-  <!-- Schema.org -->
-  <script type="application/ld+json">
-  {
-    "@context": "https://schema.org",
-    "@type": "RealEstateAgent",
-    "name": "Reasco Immobilien AG",
-    "url": "https://reasco.immo",
-    "logo": "https://reasco.immo/assets/images/logo.svg",
-    "description": "Ganzheitliche Immobilienbegleitung in der Nordostschweiz seit 2003.",
-    "address": {
-      "@type": "PostalAddress",
-      "streetAddress": "SIG Areal, Bau 53, Industrieplatz 1e",
-      "addressLocality": "Neuhausen am Rheinfall",
-      "postalCode": "8212",
-      "addressCountry": "CH"
-    },
-    "telephone": "+41525510777",
-    "email": "info@reasco.immo",
-    "areaServed": ["Schaffhausen", "Thurgau", "Zürich"],
-    "foundingDate": "2003"
-  }
-  </script>
-
+  <meta property="og:image" content="assets/images/hero-home.webp">
+  <script type="application/ld+json">{"@context":"https://schema.org","@type":"RealEstateAgent","name":"Reasco Immobilien AG","url":"https://reasco.immo","telephone":"+41525510777","email":"info@reasco.immo","address":{"@type":"PostalAddress","streetAddress":"SIG Areal, Bau 53, Industrieplatz 1e","addressLocality":"Neuhausen am Rheinfall","postalCode":"8212","addressCountry":"CH"},"foundingDate":"2003"}</script>
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link rel="stylesheet" href="assets/css/style.css">
@@ -45,9 +19,7 @@
 </head>
 <body>
 
-<!-- ═══════════════════════════════════════════════════
-     NAVIGATION
-═══════════════════════════════════════════════════ -->
+<!-- NAV -->
 <header class="site-header" role="banner">
   <nav class="nav container" aria-label="Hauptnavigation">
     <a href="./" class="nav__logo" aria-label="Reasco – Startseite">
@@ -61,19 +33,18 @@
       <li><a href="ueber-uns/" class="nav__link">Über uns</a></li>
     </ul>
     <a href="#kontakt" class="nav__cta">Erstgespräch anfragen</a>
-    <button class="nav__hamburger" aria-label="Menü öffnen" aria-expanded="false" aria-controls="mobile-drawer">
+    <button class="nav__hamburger" aria-label="Menü öffnen" aria-expanded="false">
       <span></span><span></span><span></span>
     </button>
   </nav>
 </header>
 
-<!-- Mobile Drawer -->
-<div class="mobile-drawer" id="mobile-drawer" role="dialog" aria-modal="true" aria-label="Navigation">
+<div class="mobile-drawer" role="dialog" aria-modal="true" aria-label="Navigation">
   <div class="mobile-drawer__overlay"></div>
   <div class="mobile-drawer__panel">
     <div class="mobile-drawer__header">
       <img src="assets/images/logo.svg" alt="Reasco" height="22">
-      <button class="mobile-drawer__close" aria-label="Menü schließen">
+      <button class="mobile-drawer__close" aria-label="Schließen">
         <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M18 6L6 18M6 6l12 12"/></svg>
       </button>
     </div>
@@ -96,680 +67,503 @@
 
 <main id="main">
 
-<!-- ═══════════════════════════════════════════════════
+<!-- ══════════════════════════════════════════
      HERO
-═══════════════════════════════════════════════════ -->
+══════════════════════════════════════════ -->
 <section class="hero" aria-label="Willkommen bei Reasco">
   <div class="hero__bg" aria-hidden="true">
-    <img src="assets/images/hero-home.webp"
-         alt="Immobilien in Neuhausen am Rheinfall"
-         fetchpriority="high" decoding="async"
-         width="1920" height="1080">
+    <img src="assets/images/hero-home.webp" alt="" fetchpriority="high" decoding="async" width="1920" height="1080" class="img-reveal">
   </div>
   <div class="hero__overlay" aria-hidden="true"></div>
-
   <div class="container">
     <div class="hero__content">
       <p class="hero__eyebrow">Immobilienbegleitung seit 2003</p>
-      <h1 class="hero__h1">
-        Ihr Projekt.<br>
-        <em>Richtig begleitet.</em>
-      </h1>
-      <p class="hero__desc">
-        Von der ersten Idee bis zum erfolgreichen Abschluss – Reasco bringt Ihre Immobilie ans Ziel.
-        Bauherrenberatung, Architektur, Vermarktung und Energieberatung aus einer Hand.
-      </p>
+      <h1 class="hero__h1">Ihr Projekt.<br><em>Richtig begleitet.</em></h1>
+      <p class="hero__desc">Von der ersten Idee bis zum erfolgreichen Abschluss – Reasco bringt Ihre Immobilie ans Ziel. Bauherrenberatung, Architektur, Vermarktung und Energieberatung aus einer Hand.</p>
       <div class="hero__ctas btn-group">
-        <a href="#kontakt" class="btn btn--primary btn--lg">
-          Kostenloses Erstgespräch
-          <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
-        </a>
+        <a href="#kontakt" class="btn btn--primary btn--lg">Kostenloses Erstgespräch <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M5 12h14M12 5l7 7-7 7"/></svg></a>
         <a href="#leistungen" class="btn btn--outline-white btn--lg">Leistungen entdecken</a>
       </div>
-      <div class="hero__stats" role="list" aria-label="Kennzahlen">
-        <div role="listitem">
-          <div class="hero-stat__num">20+</div>
-          <div class="hero-stat__label">Jahre Erfahrung</div>
-        </div>
-        <div role="listitem">
-          <div class="hero-stat__num">150+</div>
-          <div class="hero-stat__label">Projekte</div>
-        </div>
-        <div role="listitem">
-          <div class="hero-stat__num">3</div>
-          <div class="hero-stat__label">Regionen CH</div>
-        </div>
-        <div role="listitem">
-          <div class="hero-stat__num">5</div>
-          <div class="hero-stat__label">Leistungsbereiche</div>
-        </div>
+      <div class="hero__stats">
+        <div><div class="hero-stat__num">20+</div><div class="hero-stat__label">Jahre Erfahrung</div></div>
+        <div><div class="hero-stat__num">150+</div><div class="hero-stat__label">Projekte</div></div>
+        <div><div class="hero-stat__num">3</div><div class="hero-stat__label">Regionen CH</div></div>
+        <div><div class="hero-stat__num">5</div><div class="hero-stat__label">Leistungsbereiche</div></div>
       </div>
     </div>
   </div>
-
   <div class="hero__scroll" aria-hidden="true">
     <svg width="16" height="24" viewBox="0 0 16 24" fill="none" stroke="currentColor" stroke-width="1.5"><rect x="1" y="1" width="14" height="22" rx="7"/><path d="M8 5v4"/></svg>
     <span>Scrollen</span>
   </div>
 </section>
 
-<!-- ═══════════════════════════════════════════════════
+<!-- ══════════════════════════════════════════
      TRUST STRIP
-═══════════════════════════════════════════════════ -->
-<div class="trust-strip" aria-label="Mitgliedschaften und Zertifizierungen">
+══════════════════════════════════════════ -->
+<div class="trust-strip">
   <div class="container">
     <div class="trust-strip__inner">
       <span class="trust-strip__label">Mitglied bei</span>
       <div class="trust-strip__sep" aria-hidden="true"></div>
       <div class="trust-strip__badges">
-        <span class="trust-badge">
-          <span class="trust-badge__icon" aria-hidden="true">SIA</span>
-          Schweiz. Ingenieur- und Architektenverein
-        </span>
-        <span class="trust-badge">
-          <span class="trust-badge__icon" aria-hidden="true">RICS</span>
-          Royal Institution of Chartered Surveyors
-        </span>
-        <span class="trust-badge">
-          <span class="trust-badge__icon" aria-hidden="true">SVIT</span>
-          Schweizer Verband der Immobilienwirtschaft
-        </span>
-        <span class="trust-badge">
-          <span class="trust-badge__icon" style="font-size:9px;line-height:1.2;text-align:center;" aria-hidden="true">Bauen<br>digital</span>
-          buildingSMART Schweiz
-        </span>
+        <span class="trust-badge"><span class="trust-badge__icon">SIA</span>Ingenieur- und Architektenverein</span>
+        <span class="trust-badge"><span class="trust-badge__icon">RICS</span>Chartered Surveyors</span>
+        <span class="trust-badge"><span class="trust-badge__icon">SVIT</span>Immobilienwirtschaft CH</span>
+        <span class="trust-badge"><span class="trust-badge__icon" style="font-size:9px;line-height:1.2;text-align:center;">Bauen<br>digital</span>buildingSMART</span>
       </div>
     </div>
   </div>
 </div>
 
-<!-- ═══════════════════════════════════════════════════
+<!-- ══════════════════════════════════════════
+     MOOD QUOTE
+══════════════════════════════════════════ -->
+<section class="mood-section" aria-label="Unser Versprechen">
+  <div class="mood-section__bg" aria-hidden="true">
+    <img src="https://images.unsplash.com/photo-1486325212027-8081e485255e?w=1600&auto=format&q=80"
+         alt="Moderne Architektur" loading="lazy" class="img-reveal">
+  </div>
+  <div class="mood-section__overlay" aria-hidden="true"></div>
+  <div class="mood-section__content reveal">
+    <span class="mood-section__label">Unser Versprechen</span>
+    <blockquote class="mood-section__quote">
+      «Jedes Immobilienprojekt ist einzigartig.<br>
+      Deshalb liefern wir keine Standardlösungen –<br>
+      sondern <strong>Lösungen, die wirklich passen.</strong>»
+    </blockquote>
+    <div class="mood-section__attr">Andreas Steiner, Geschäftsführer Reasco Immobilien AG</div>
+    <div class="mood-section__accent"></div>
+  </div>
+</section>
+
+<!-- ══════════════════════════════════════════
      SERVICES
-═══════════════════════════════════════════════════ -->
+══════════════════════════════════════════ -->
 <section class="section" id="leistungen" aria-labelledby="leistungen-heading">
   <div class="container">
     <div class="section-header">
       <span class="label">Unsere Leistungen</span>
-      <h2 class="section-heading reveal" id="leistungen-heading">
-        Alles für Ihr Immobilienprojekt –<br>aus einer Hand.
-      </h2>
-      <p class="section-sub reveal reveal-delay-1">
-        Ob Neubau, Sanierung oder Verkauf: Reasco begleitet Sie mit ganzheitlicher Expertise
-        von der ersten Idee bis zum erfolgreichen Abschluss.
-      </p>
+      <h2 class="section-heading reveal" id="leistungen-heading">Alles für Ihr Immobilienprojekt –<br>aus einer Hand.</h2>
+      <p class="section-sub reveal reveal-delay-1">Ob Neubau, Sanierung oder Verkauf: Reasco begleitet Sie von der ersten Idee bis zum erfolgreichen Abschluss.</p>
     </div>
-
     <div class="services-grid">
-      <!-- Bauherrenberatung -->
+
       <article class="service-card reveal">
-        <div class="service-card__icon" aria-hidden="true">
-          <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75"><path d="M3 9l9-7 9 7v11a2 2 0 01-2 2H5a2 2 0 01-2-2z"/><polyline points="9 22 9 12 15 12 15 22"/></svg>
-        </div>
+        <span class="service-card__bg-num" aria-hidden="true">01</span>
+        <div class="service-card__icon" aria-hidden="true"><svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75"><path d="M3 9l9-7 9 7v11a2 2 0 01-2 2H5a2 2 0 01-2-2z"/><polyline points="9 22 9 12 15 12 15 22"/></svg></div>
         <h3 class="service-card__title">Bauherrenberatung</h3>
         <p class="service-card__desc">Ihre Interessen professionell vertreten – von der Planung bis zur Schlüsselabnahme. Wir überwachen Kosten, Termine und Qualität.</p>
         <ul class="service-card__bullets">
           <li class="service-card__bullet">Kosten- und Termincontrolling</li>
           <li class="service-card__bullet">Qualitätssicherung auf der Baustelle</li>
           <li class="service-card__bullet">Behörden- und Unternehmerkommunikation</li>
-          <li class="service-card__bullet">Abnahme und Mängelmanagement</li>
         </ul>
-        <a href="bauherrenberatung/" class="link-arrow">
-          Mehr erfahren
-          <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
-        </a>
+        <a href="bauherrenberatung/" class="link-arrow">Mehr erfahren <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M5 12h14M12 5l7 7-7 7"/></svg></a>
       </article>
 
-      <!-- Architektur -->
       <article class="service-card reveal reveal-delay-1">
-        <div class="service-card__icon" aria-hidden="true">
-          <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75"><rect x="3" y="3" width="18" height="18" rx="2"/><path d="M3 9h18M9 21V9"/></svg>
-        </div>
+        <span class="service-card__bg-num" aria-hidden="true">02</span>
+        <div class="service-card__icon" aria-hidden="true"><svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75"><rect x="3" y="3" width="18" height="18" rx="2"/><path d="M3 9h18M9 21V9"/></svg></div>
         <h3 class="service-card__title">Architektur &amp; Bauleitung</h3>
-        <p class="service-card__desc">Präzise Planung, kreative Lösungen, saubere Ausführung. Wir begleiten Ihr Bauprojekt vom Entwurf bis zur Schlüsselübergabe.</p>
+        <p class="service-card__desc">Präzise Planung, kreative Lösungen, saubere Ausführung. Vom Entwurf bis zur Schlüsselübergabe in einer Hand.</p>
         <ul class="service-card__bullets">
           <li class="service-card__bullet">Planung &amp; Entwurf (SIA-Phasen 31–53)</li>
           <li class="service-card__bullet">Baubewilligung und Genehmigungsplanung</li>
-          <li class="service-card__bullet">Ausschreibung und Vergabe</li>
           <li class="service-card__bullet">Örtliche Bauleitung und Abnahme</li>
         </ul>
-        <a href="architektur-bauleitung/" class="link-arrow">
-          Mehr erfahren
-          <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
-        </a>
+        <a href="architektur-bauleitung/" class="link-arrow">Mehr erfahren <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M5 12h14M12 5l7 7-7 7"/></svg></a>
       </article>
 
-      <!-- GU-Mandate -->
       <article class="service-card reveal reveal-delay-2">
-        <div class="service-card__icon" aria-hidden="true">
-          <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75"><path d="M16 21v-2a4 4 0 00-4-4H6a4 4 0 00-4 4v2"/><circle cx="9" cy="7" r="4"/><path d="M22 21v-2a4 4 0 00-3-3.87M16 3.13a4 4 0 010 7.75"/></svg>
-        </div>
+        <span class="service-card__bg-num" aria-hidden="true">03</span>
+        <div class="service-card__icon" aria-hidden="true"><svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75"><path d="M16 21v-2a4 4 0 00-4-4H6a4 4 0 00-4 4v2"/><circle cx="9" cy="7" r="4"/><path d="M22 21v-2a4 4 0 00-3-3.87M16 3.13a4 4 0 010 7.75"/></svg></div>
         <h3 class="service-card__title">GU-Mandate</h3>
-        <p class="service-card__desc">Als Generalunternehmer übernehmen wir die Gesamtverantwortung für Ihr Projekt – transparent, termingerecht, im Budget.</p>
+        <p class="service-card__desc">Als Generalunternehmer übernehmen wir die Gesamtverantwortung – transparent, termingerecht, im Budget.</p>
         <ul class="service-card__bullets">
           <li class="service-card__bullet">Gesamtverantwortung für Kosten &amp; Termine</li>
-          <li class="service-card__bullet">Koordination aller Fachplaner und Unternehmer</li>
           <li class="service-card__bullet">Fixpreisangebot möglich</li>
           <li class="service-card__bullet">Einheitlicher Ansprechpartner für Sie</li>
         </ul>
-        <a href="generalunternehmer-mandate/" class="link-arrow">
-          Mehr erfahren
-          <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
-        </a>
+        <a href="generalunternehmer-mandate/" class="link-arrow">Mehr erfahren <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M5 12h14M12 5l7 7-7 7"/></svg></a>
       </article>
 
-      <!-- Vermarktung -->
       <article class="service-card reveal">
-        <div class="service-card__icon" aria-hidden="true">
-          <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75"><path d="M20.59 13.41l-7.17 7.17a2 2 0 01-2.83 0L2 12V2h10l8.59 8.59a2 2 0 010 2.82z"/><line x1="7" y1="7" x2="7.01" y2="7"/></svg>
-        </div>
+        <span class="service-card__bg-num" aria-hidden="true">04</span>
+        <div class="service-card__icon" aria-hidden="true"><svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75"><path d="M20.59 13.41l-7.17 7.17a2 2 0 01-2.83 0L2 12V2h10l8.59 8.59a2 2 0 010 2.82z"/><line x1="7" y1="7" x2="7.01" y2="7"/></svg></div>
         <h3 class="service-card__title">Immobilienvermarktung</h3>
-        <p class="service-card__desc">Mehr Interessenten, höhere Preise, schnellere Abschlüsse. Unsere Vermarktungsexperten bringen Ihre Immobilie zum richtigen Käufer.</p>
+        <p class="service-card__desc">Mehr Interessenten, höhere Preise, schnellere Abschlüsse. Unsere Experten bringen Ihre Immobilie zum richtigen Käufer.</p>
         <ul class="service-card__bullets">
           <li class="service-card__bullet">Professionelle Verkaufsdokumentation</li>
-          <li class="service-card__bullet">Multikanal-Marketing (Online + Offline)</li>
-          <li class="service-card__bullet">Besichtigungsmanagement und Käuferqualifizierung</li>
+          <li class="service-card__bullet">Multikanal-Marketing</li>
           <li class="service-card__bullet">Vertragsverhandlung bis zur Beurkundung</li>
         </ul>
-        <a href="immobilienvermarktung/" class="link-arrow">
-          Mehr erfahren
-          <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
-        </a>
+        <a href="immobilienvermarktung/" class="link-arrow">Mehr erfahren <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M5 12h14M12 5l7 7-7 7"/></svg></a>
       </article>
 
-      <!-- Energieberatung -->
       <article class="service-card reveal reveal-delay-1">
-        <div class="service-card__icon" aria-hidden="true">
-          <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75"><polygon points="13 2 3 14 12 14 11 22 21 10 12 10 13 2"/></svg>
-        </div>
+        <span class="service-card__bg-num" aria-hidden="true">05</span>
+        <div class="service-card__icon" aria-hidden="true"><svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75"><polygon points="13 2 3 14 12 14 11 22 21 10 12 10 13 2"/></svg></div>
         <h3 class="service-card__title">Energieberatung</h3>
-        <p class="service-card__desc">Energiekosten senken, Fördermittel sichern, Immobilienwert steigern. Wir zeigen den direkten Weg zur energetischen Optimierung.</p>
+        <p class="service-card__desc">Energiekosten senken, Fördermittel sichern, Immobilienwert steigern. Der direkte Weg zur energetischen Optimierung.</p>
         <ul class="service-card__bullets">
           <li class="service-card__bullet">GEAK und Energieausweis</li>
           <li class="service-card__bullet">Fördermittelberatung (FKZE, Kanton)</li>
           <li class="service-card__bullet">PV-Anlagen und Wärmepumpen</li>
-          <li class="service-card__bullet">Sanierungsfahrplan und Monitoring</li>
         </ul>
-        <a href="energieberatung/" class="link-arrow">
-          Mehr erfahren
-          <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
-        </a>
+        <a href="energieberatung/" class="link-arrow">Mehr erfahren <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M5 12h14M12 5l7 7-7 7"/></svg></a>
       </article>
 
-      <!-- Nachlassplanung -->
       <article class="service-card reveal reveal-delay-2">
-        <div class="service-card__icon" aria-hidden="true">
-          <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75"><path d="M14 2H6a2 2 0 00-2 2v16a2 2 0 002 2h12a2 2 0 002-2V8z"/><polyline points="14 2 14 8 20 8"/><line x1="16" y1="13" x2="8" y2="13"/><line x1="16" y1="17" x2="8" y2="17"/><polyline points="10 9 9 9 8 9"/></svg>
-        </div>
+        <span class="service-card__bg-num" aria-hidden="true">06</span>
+        <div class="service-card__icon" aria-hidden="true"><svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75"><path d="M14 2H6a2 2 0 00-2 2v16a2 2 0 002 2h12a2 2 0 002-2V8z"/><polyline points="14 2 14 8 20 8"/><line x1="16" y1="13" x2="8" y2="13"/><line x1="16" y1="17" x2="8" y2="17"/></svg></div>
         <h3 class="service-card__title">Nachlassplanung</h3>
-        <p class="service-card__desc">Immobilien sicher und steueroptimiert übergeben. In Zusammenarbeit mit der Heresta GmbH beraten wir auch in erbrechtlichen Fragen.</p>
+        <p class="service-card__desc">Immobilien sicher und steueroptimiert übergeben. In Zusammenarbeit mit der Heresta GmbH beraten wir auch erbrechtlich.</p>
         <ul class="service-card__bullets">
           <li class="service-card__bullet">Erbschaftliche Immobilienbewertung</li>
           <li class="service-card__bullet">Erbteilung und Nachlassliquidation</li>
-          <li class="service-card__bullet">Steueroptimierte Übergabestrukturen</li>
           <li class="service-card__bullet">In Kooperation mit Heresta GmbH</li>
         </ul>
-        <a href="ueber-uns/#partner" class="link-arrow">
-          Mehr erfahren
-          <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
-        </a>
+        <a href="ueber-uns/#partner" class="link-arrow">Mehr erfahren <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M5 12h14M12 5l7 7-7 7"/></svg></a>
       </article>
+
     </div>
   </div>
 </section>
 
-<!-- ═══════════════════════════════════════════════════
-     ABOUT STRIP
-═══════════════════════════════════════════════════ -->
-<section class="section section--warm" aria-labelledby="about-heading">
+<!-- ══════════════════════════════════════════
+     PROJEKT-GALERIE
+══════════════════════════════════════════ -->
+<section class="gallery-section" aria-labelledby="galerie-heading">
   <div class="container">
-    <div class="about-grid">
-      <div class="about__image-wrap reveal">
-        <img src="assets/images/team-group.jpg"
-             alt="Das Team der Reasco Immobilien AG"
-             loading="lazy" width="600" height="750">
-        <div class="about__badge" aria-label="Gegründet 2003">
-          <div class="about__badge-num">2003</div>
-          <div class="about__badge-label">Gegründet</div>
+    <div class="section-header" style="margin-bottom:var(--space-12);">
+      <span class="label label--muted">Ausgewählte Projekte</span>
+      <h2 class="section-heading reveal" id="galerie-heading" style="color:#fff;">Projekte, die für sich sprechen.</h2>
+      <p class="section-sub reveal reveal-delay-1">Ein Auszug aus über 150 erfolgreich abgewickelten Projekten in der Nordostschweiz.</p>
+    </div>
+    <div class="gallery-grid reveal">
+      <div class="gallery-item gallery-item--tall">
+        <img src="assets/images/ref-projekt-1.jpg" alt="Mehrfamilienhaus Neuhausen am Rheinfall" loading="lazy" class="img-reveal">
+        <div class="gallery-item__overlay">
+          <span class="gallery-item__badge">Neubau</span>
+          <div class="gallery-item__title">Mehrfamilienhaus Neuhausen</div>
+          <div class="gallery-item__sub">Neuhausen am Rheinfall · 2023</div>
         </div>
       </div>
-
-      <div class="about__content">
-        <span class="label reveal">Über Reasco</span>
-        <h2 class="section-heading reveal reveal-delay-1" id="about-heading">
-          Ganzheitliche Immobilien&shy;begleitung – seit über 20 Jahren.
-        </h2>
-        <p class="about__text reveal reveal-delay-2">
-          Was uns unterscheidet: Wir denken nicht in einzelnen Leistungen, sondern in Gesamtlösungen.
-          Unser interdisziplinäres Team aus Architekten, Ökonomen, Juristen und Vermarktungsspezialisten
-          arbeitet vernetzt – damit Ihr Projekt von Anfang bis Ende in einer Hand bleibt.
-        </p>
-
-        <div class="about__features reveal reveal-delay-2">
-          <div class="about-feature">
-            <div class="about-feature__icon" aria-hidden="true">
-              <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/></svg>
-            </div>
-            <div>
-              <div class="about-feature__title">Unabhängige Beratung</div>
-              <div class="about-feature__text">Keine Interessenkonflikte. Wir beraten ausschliesslich in Ihrem Interesse.</div>
-            </div>
-          </div>
-          <div class="about-feature">
-            <div class="about-feature__icon" aria-hidden="true">
-              <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M17 21v-2a4 4 0 00-4-4H5a4 4 0 00-4 4v2"/><circle cx="9" cy="7" r="4"/><path d="M23 21v-2a4 4 0 00-3-3.87M16 3.13a4 4 0 010 7.75"/></svg>
-            </div>
-            <div>
-              <div class="about-feature__title">Echte Spezialisten</div>
-              <div class="about-feature__text">Jede Disziplin durch zertifizierte Fachleute mit tiefer Fachkenntnis.</div>
-            </div>
-          </div>
-          <div class="about-feature">
-            <div class="about-feature__icon" aria-hidden="true">
-              <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="22 12 18 12 15 21 9 3 6 12 2 12"/></svg>
-            </div>
-            <div>
-              <div class="about-feature__title">Volle Transparenz</div>
-              <div class="about-feature__text">Klare Kommunikation, keine Überraschungen. Sie wissen jederzeit, wo Ihr Projekt steht.</div>
-            </div>
-          </div>
-          <div class="about-feature">
-            <div class="about-feature__icon" aria-hidden="true">
-              <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/></svg>
-            </div>
-            <div>
-              <div class="about-feature__title">Regionaler Fokus</div>
-              <div class="about-feature__text">Wir kennen den Markt in Schaffhausen, Thurgau und Zürich in- und auswendig.</div>
-            </div>
+      <div style="display:flex;flex-direction:column;gap:var(--space-4);">
+        <div class="gallery-item gallery-item--wide">
+          <img src="assets/images/ref-projekt-2.jpg" alt="Altbaurevitalisierung Schaffhausen" loading="lazy" class="img-reveal">
+          <div class="gallery-item__overlay">
+            <span class="gallery-item__badge">Sanierung</span>
+            <div class="gallery-item__title">Altbaurevitalisierung Altstadt</div>
+            <div class="gallery-item__sub">Schaffhausen · 2022</div>
           </div>
         </div>
-
-        <a href="ueber-uns/" class="btn btn--outline reveal reveal-delay-3">
-          Unser Team kennenlernen
-          <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
-        </a>
+        <div class="gallery-item gallery-item--sq">
+          <img src="assets/images/service-bauherren.png" alt="Eigentumswohnungen Bühl" loading="lazy" class="img-reveal">
+          <div class="gallery-item__overlay">
+            <span class="gallery-item__badge">Vermarktung</span>
+            <div class="gallery-item__title">Eigentumswohnungen Bühl</div>
+            <div class="gallery-item__sub">Bühl, Schaffhausen · Vollständig vermarktet</div>
+          </div>
+        </div>
       </div>
     </div>
   </div>
 </section>
 
-<!-- ═══════════════════════════════════════════════════
+<!-- ══════════════════════════════════════════
+     SPLIT – WARUM REASCO
+══════════════════════════════════════════ -->
+<div class="split-section" aria-labelledby="split1-heading">
+  <div class="split__image">
+    <img src="https://images.unsplash.com/photo-1560520653-9e0e4c89eb11?w=1200&auto=format&q=80"
+         alt="Beratungsgespräch Reasco" loading="lazy" class="img-reveal">
+  </div>
+  <div class="split__content split__content--warm">
+    <div class="split__icon" aria-hidden="true">
+      <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/></svg>
+    </div>
+    <span class="label">Warum Reasco</span>
+    <h2 class="split__heading" id="split1-heading">Unabhängig. Kompetent. Verlässlich.</h2>
+    <p class="split__text">Was uns unterscheidet: Wir beraten ausschliesslich in Ihrem Interesse – ohne Provisionen, ohne Interessenkonflikte. Unser interdisziplinäres Team denkt ganzheitlich und löst Probleme, bevor sie entstehen.</p>
+    <ul class="split__bullets">
+      <li class="split__bullet">
+        <span class="split__bullet-dot"><svg width="10" height="10" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3"><polyline points="20 6 9 17 4 12"/></svg></span>
+        Unabhängige Beratung ohne Interessenkonflikt
+      </li>
+      <li class="split__bullet">
+        <span class="split__bullet-dot"><svg width="10" height="10" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3"><polyline points="20 6 9 17 4 12"/></svg></span>
+        SIA-, RICS- und SVIT-zertifizierte Fachleute
+      </li>
+      <li class="split__bullet">
+        <span class="split__bullet-dot"><svg width="10" height="10" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3"><polyline points="20 6 9 17 4 12"/></svg></span>
+        Vollständige Projektabwicklung aus einer Hand
+      </li>
+      <li class="split__bullet">
+        <span class="split__bullet-dot"><svg width="10" height="10" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3"><polyline points="20 6 9 17 4 12"/></svg></span>
+        Klare Kommunikation – keine Überraschungen
+      </li>
+    </ul>
+    <a href="ueber-uns/" class="btn btn--primary">Unser Team kennenlernen <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M5 12h14M12 5l7 7-7 7"/></svg></a>
+  </div>
+</div>
+
+<!-- ══════════════════════════════════════════
+     SPLIT – UNSERE REGION
+══════════════════════════════════════════ -->
+<div class="split-section split-section--reverse" aria-labelledby="split2-heading">
+  <div class="split__image">
+    <img src="https://images.unsplash.com/photo-1506905925346-21bda4d32df4?w=1200&auto=format&q=80"
+         alt="Nordostschweiz Landschaft" loading="lazy" class="img-reveal">
+  </div>
+  <div class="split__content split__content--dark">
+    <div class="split__icon" aria-hidden="true">
+      <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75"><path d="M21 10c0 7-9 13-9 13S3 17 3 10a9 9 0 0118 0z"/><circle cx="12" cy="10" r="3"/></svg>
+    </div>
+    <span class="label label--light">Unsere Region</span>
+    <h2 class="split__heading" id="split2-heading">Zuhause in der Nordostschweiz.</h2>
+    <p class="split__text">Seit über 20 Jahren kennen wir den Immobilienmarkt in Schaffhausen, Thurgau und Zürich in- und auswendig. Dieses lokale Wissen ist Ihr Vorteil.</p>
+    <ul class="split__bullets">
+      <li class="split__bullet">
+        <span class="split__bullet-dot"><svg width="10" height="10" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3"><polyline points="20 6 9 17 4 12"/></svg></span>
+        Kanton Schaffhausen – unser Heimmarkt seit 2003
+      </li>
+      <li class="split__bullet">
+        <span class="split__bullet-dot"><svg width="10" height="10" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3"><polyline points="20 6 9 17 4 12"/></svg></span>
+        Kanton Thurgau – gewachsene Partnernetzwerke
+      </li>
+      <li class="split__bullet">
+        <span class="split__bullet-dot"><svg width="10" height="10" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3"><polyline points="20 6 9 17 4 12"/></svg></span>
+        Kanton Zürich – Zugang zu städtischen Märkten
+      </li>
+    </ul>
+    <a href="kontakt/" class="btn btn--outline-white">Standort &amp; Kontakt <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M5 12h14M12 5l7 7-7 7"/></svg></a>
+  </div>
+</div>
+
+<!-- ══════════════════════════════════════════
      STATS BAR
-═══════════════════════════════════════════════════ -->
-<div class="stats-bar" aria-label="Kennzahlen" role="region">
+══════════════════════════════════════════ -->
+<div class="stats-bar" aria-label="Kennzahlen">
+  <div class="stats-bar__bg" aria-hidden="true">
+    <img src="https://images.unsplash.com/photo-1531971589569-0d9370cbe1e5?w=1600&auto=format&q=80"
+         alt="" loading="lazy">
+  </div>
   <div class="container">
     <div class="stats-grid">
-      <div class="stat-item reveal">
-        <div class="stat__num"><span data-count="20" data-suffix="+">20+</span></div>
-        <div class="stat__label">Jahre Markterfahrung</div>
-      </div>
-      <div class="stat-item reveal reveal-delay-1">
-        <div class="stat__num"><span data-count="150" data-suffix="+">150+</span></div>
-        <div class="stat__label">Abgeschlossene Projekte</div>
-      </div>
-      <div class="stat-item reveal reveal-delay-2">
-        <div class="stat__num"><span data-count="3">3</span></div>
-        <div class="stat__label">Kantone SH · TG · ZH</div>
-      </div>
-      <div class="stat-item reveal reveal-delay-3">
-        <div class="stat__num"><span data-count="5">5</span></div>
-        <div class="stat__label">Leistungsbereiche</div>
-      </div>
+      <div class="stat-item reveal"><div class="stat__num"><span data-count="20" data-suffix="+">20+</span></div><div class="stat__label">Jahre Markterfahrung</div></div>
+      <div class="stat-item reveal reveal-delay-1"><div class="stat__num"><span data-count="150" data-suffix="+">150+</span></div><div class="stat__label">Abgeschlossene Projekte</div></div>
+      <div class="stat-item reveal reveal-delay-2"><div class="stat__num"><span data-count="3">3</span></div><div class="stat__label">Kantone SH · TG · ZH</div></div>
+      <div class="stat-item reveal reveal-delay-3"><div class="stat__num"><span data-count="5">5</span></div><div class="stat__label">Leistungsbereiche</div></div>
     </div>
   </div>
 </div>
 
-<!-- ═══════════════════════════════════════════════════
+<!-- ══════════════════════════════════════════
      PROCESS
-═══════════════════════════════════════════════════ -->
-<section class="section" aria-labelledby="process-heading">
+══════════════════════════════════════════ -->
+<section class="section section--warm" aria-labelledby="process-heading">
   <div class="container">
     <div class="section-header section-header--center">
       <span class="label">So arbeiten wir</span>
       <h2 class="section-heading reveal" id="process-heading">In vier Schritten zum Ziel</h2>
-      <p class="section-sub reveal reveal-delay-1">
-        Kein Projekt ist wie das andere. Deshalb beginnen wir immer mit dem Zuhören –
-        und entwickeln erst dann eine Lösung, die wirklich zu Ihnen passt.
-      </p>
+      <p class="section-sub reveal reveal-delay-1">Kein Projekt ist wie das andere. Deshalb beginnen wir immer mit dem Zuhören.</p>
     </div>
     <div class="process-grid">
       <div class="process-step reveal">
-        <div class="process-step__bubble" aria-hidden="true">1</div>
+        <div class="process-step__bubble">1</div>
         <div class="process-step__badge">Kostenlos</div>
         <h3 class="process-step__title">Erstgespräch</h3>
-        <p class="process-step__text">Wir hören zu, verstehen Ihre Ziele und zeigen erste Möglichkeiten auf. Unverbindlich, ohne Zeitdruck – wir nehmen uns Zeit für Sie.</p>
+        <p class="process-step__text">Wir hören zu, verstehen Ihre Ziele und zeigen erste Möglichkeiten auf. Unverbindlich, ohne Zeitdruck.</p>
       </div>
       <div class="process-step reveal reveal-delay-1">
-        <div class="process-step__bubble" aria-hidden="true">2</div>
+        <div class="process-step__bubble">2</div>
         <h3 class="process-step__title">Analyse &amp; Konzept</h3>
-        <p class="process-step__text">Wir prüfen Machbarkeit, Risiken und Potenziale – und entwickeln einen konkreten, auf Sie zugeschnittenen Lösungsansatz.</p>
+        <p class="process-step__text">Wir prüfen Machbarkeit, Risiken und Potenziale – und entwickeln einen konkreten Lösungsansatz.</p>
       </div>
       <div class="process-step reveal reveal-delay-2">
-        <div class="process-step__bubble" aria-hidden="true">3</div>
+        <div class="process-step__bubble">3</div>
         <h3 class="process-step__title">Professionelle Umsetzung</h3>
-        <p class="process-step__text">Unser Team begleitet Sie durch alle Phasen: von Planung und Bau bis zu Vermarktung und Übergabe – mit klaren Meilensteinen.</p>
+        <p class="process-step__text">Unser Team begleitet alle Phasen: von Planung und Bau bis zu Vermarktung und Übergabe.</p>
       </div>
       <div class="process-step reveal reveal-delay-3">
-        <div class="process-step__bubble" aria-hidden="true">4</div>
-        <h3 class="process-step__title">Übergabe &amp; Nachbetreuung</h3>
-        <p class="process-step__text">Auch nach dem Abschluss bleiben wir für Sie da. Ihr Erfolg ist unser Anspruch – nicht nur bis zur Unterschrift.</p>
+        <div class="process-step__bubble">4</div>
+        <h3 class="process-step__title">Nachbetreuung</h3>
+        <p class="process-step__text">Auch nach dem Abschluss bleiben wir für Sie da. Ihr Erfolg ist unser Anspruch.</p>
       </div>
     </div>
   </div>
 </section>
 
-<!-- ═══════════════════════════════════════════════════
-     TESTIMONIALS
-═══════════════════════════════════════════════════ -->
-<section class="section section--warm" aria-labelledby="testimonials-heading">
+<!-- ══════════════════════════════════════════
+     LARGE TESTIMONIAL
+══════════════════════════════════════════ -->
+<section class="testimonial-large" aria-label="Kundenstimme">
+  <div class="testimonial-large__bg-quote" aria-hidden="true">"</div>
+  <div class="container">
+    <div class="testimonial-large__content reveal">
+      <div class="testimonial-large__stars">★★★★★</div>
+      <blockquote class="testimonial-large__text">
+        «Dank Reasco haben wir unsere Eigentumswohnung deutlich über dem Richtwert verkauft.
+        Die Vermarktung war professionell, der gesamte Prozess vollständig transparent.
+        Wir wurden nie im Unklaren gelassen – ein Team, dem man vertrauen kann.»
+      </blockquote>
+      <div class="testimonial-large__author">
+        <div class="testimonial-large__avatar">MS</div>
+        <div>
+          <div class="testimonial-large__name">Monika S.</div>
+          <div class="testimonial-large__role">Eigentümerin, Schaffhausen</div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ══════════════════════════════════════════
+     TESTIMONIALS GRID
+══════════════════════════════════════════ -->
+<section class="section" aria-labelledby="testimonials-heading">
   <div class="container">
     <div class="section-header section-header--center">
-      <span class="label">Kundenstimmen</span>
+      <span class="label">Weitere Stimmen</span>
       <h2 class="section-heading reveal" id="testimonials-heading">Was unsere Kunden sagen</h2>
     </div>
     <div class="testimonials-grid">
       <blockquote class="testimonial reveal">
-        <div class="testimonial__stars" aria-label="5 von 5 Sternen">★★★★★</div>
-        <p class="testimonial__text">
-          Dank Reasco haben wir unsere Eigentumswohnung deutlich über dem Richtwert verkauft.
-          Die Vermarktung war professionell, der gesamte Prozess sehr transparent. Wir wurden
-          nie im Unklaren gelassen.
-        </p>
+        <div class="testimonial__stars">★★★★★</div>
+        <p class="testimonial__text">Als Investor schätze ich Reasco besonders wegen ihrer ganzheitlichen Denkweise. Sie haben uns vor einem kostspieligen Planungsfehler bewahrt und die Rendite deutlich verbessert.</p>
         <footer class="testimonial__author">
-          <div class="testimonial__avatar" aria-hidden="true">MS</div>
-          <div>
-            <div class="testimonial__name">Monika S.</div>
-            <div class="testimonial__role">Eigentümerin, Schaffhausen</div>
-          </div>
+          <div class="testimonial__avatar">TK</div>
+          <div><div class="testimonial__name">Thomas K.</div><div class="testimonial__role">Investor, Winterthur</div></div>
         </footer>
       </blockquote>
-
       <blockquote class="testimonial reveal reveal-delay-1">
-        <div class="testimonial__stars" aria-label="5 von 5 Sternen">★★★★★</div>
-        <p class="testimonial__text">
-          Als Investor schätze ich Reasco besonders wegen ihrer ganzheitlichen Denkweise.
-          Sie haben uns vor einem kostspieligen Planungsfehler bewahrt und die Rendite
-          unseres Mehrfamilienhauses deutlich verbessert.
-        </p>
+        <div class="testimonial__stars">★★★★★</div>
+        <p class="testimonial__text">Unsere energetische Sanierung hat sich dank Reasco schneller amortisiert als erwartet. Wir erhielten über CHF 12'000 Fördergelder – daran hatten wir alleine nie gedacht.</p>
         <footer class="testimonial__author">
-          <div class="testimonial__avatar" aria-hidden="true">TK</div>
-          <div>
-            <div class="testimonial__name">Thomas K.</div>
-            <div class="testimonial__role">Investor, Winterthur</div>
-          </div>
+          <div class="testimonial__avatar">FB</div>
+          <div><div class="testimonial__name">Familie Bauer</div><div class="testimonial__role">Liegenschaftseigentümer, Thurgau</div></div>
         </footer>
       </blockquote>
-
       <blockquote class="testimonial reveal reveal-delay-2">
-        <div class="testimonial__stars" aria-label="5 von 5 Sternen">★★★★★</div>
-        <p class="testimonial__text">
-          Unsere energetische Sanierung hat sich dank der Beratung von Reasco schneller
-          amortisiert als erwartet. Wir haben über CHF 12&thinsp;000 Fördergelder erhalten
-          und der Wert unserer Liegenschaft ist deutlich gestiegen.
-        </p>
+        <div class="testimonial__stars">★★★★★</div>
+        <p class="testimonial__text">Reasco hat unser Mehrfamilienhaus in Rekordzeit vermittelt. Der Verkaufspreis übertraf unsere Erwartungen. Die Dokumentation und Präsentation waren erstklassig.</p>
         <footer class="testimonial__author">
-          <div class="testimonial__avatar" aria-hidden="true">FB</div>
-          <div>
-            <div class="testimonial__name">Familie Bauer</div>
-            <div class="testimonial__role">Liegenschaftseigentümer, Thurgau</div>
-          </div>
+          <div class="testimonial__avatar">RH</div>
+          <div><div class="testimonial__name">Roland H.</div><div class="testimonial__role">Eigentümer, Schaffhausen</div></div>
         </footer>
       </blockquote>
     </div>
   </div>
 </section>
 
-<!-- ═══════════════════════════════════════════════════
-     REFERENCES
-═══════════════════════════════════════════════════ -->
-<section class="section" aria-labelledby="references-heading">
-  <div class="container">
-    <div class="section-header">
-      <span class="label">Ausgewählte Projekte</span>
-      <h2 class="section-heading reveal" id="references-heading">Projekte, die für sich sprechen.</h2>
-      <p class="section-sub reveal reveal-delay-1">
-        Ein Auszug aus über 150 erfolgreich abgewickelten Projekten in der Nordostschweiz.
-      </p>
-    </div>
-    <div class="references-grid">
-      <article class="ref-card reveal">
-        <div class="ref-card__img">
-          <img src="assets/images/ref-projekt-1.jpg" alt="Mehrfamilienhaus Neuhausen am Rheinfall" loading="lazy" width="600" height="400">
-          <span class="ref-card__badge">Neubau</span>
-        </div>
-        <div class="ref-card__body">
-          <h3 class="ref-card__title">Mehrfamilienhaus Neuhausen</h3>
-          <p class="ref-card__location">
-            <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M21 10c0 7-9 13-9 13S3 17 3 10a9 9 0 0118 0z"/><circle cx="12" cy="10" r="3"/></svg>
-            Neuhausen am Rheinfall
-          </p>
-          <span class="ref-card__status">Abgeschlossen 2023</span>
-        </div>
-      </article>
-
-      <article class="ref-card reveal reveal-delay-1">
-        <div class="ref-card__img">
-          <img src="assets/images/ref-projekt-2.jpg" alt="Altbaurevitalisierung Schaffhausen Altstadt" loading="lazy" width="600" height="400">
-          <span class="ref-card__badge">Sanierung</span>
-        </div>
-        <div class="ref-card__body">
-          <h3 class="ref-card__title">Altbaurevitalisierung Altstadt</h3>
-          <p class="ref-card__location">
-            <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M21 10c0 7-9 13-9 13S3 17 3 10a9 9 0 0118 0z"/><circle cx="12" cy="10" r="3"/></svg>
-            Schaffhausen Altstadt
-          </p>
-          <span class="ref-card__status">Abgeschlossen 2022</span>
-        </div>
-      </article>
-
-      <article class="ref-card reveal reveal-delay-2">
-        <div class="ref-card__img">
-          <img src="assets/images/service-bauherren.png" alt="Eigentumswohnungen Bühl Schaffhausen" loading="lazy" width="600" height="400">
-          <span class="ref-card__badge">Vermarktung</span>
-        </div>
-        <div class="ref-card__body">
-          <h3 class="ref-card__title">Eigentumswohnungen Bühl</h3>
-          <p class="ref-card__location">
-            <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M21 10c0 7-9 13-9 13S3 17 3 10a9 9 0 0118 0z"/><circle cx="12" cy="10" r="3"/></svg>
-            Bühl, Schaffhausen
-          </p>
-          <span class="ref-card__status">Vollständig vermarktet</span>
-        </div>
-      </article>
-    </div>
-  </div>
-</section>
-
-<!-- ═══════════════════════════════════════════════════
+<!-- ══════════════════════════════════════════
      TEAM
-═══════════════════════════════════════════════════ -->
+══════════════════════════════════════════ -->
 <section class="section section--warm" aria-labelledby="team-heading">
   <div class="container">
     <div class="section-header section-header--center">
       <span class="label">Das Team</span>
       <h2 class="section-heading reveal" id="team-heading">Die Menschen hinter Reasco</h2>
-      <p class="section-sub reveal reveal-delay-1">
-        Erfahrene Spezialisten mit echter Leidenschaft für Immobilien – und für Ihre Ziele.
-      </p>
+      <p class="section-sub reveal reveal-delay-1">Erfahrene Spezialisten mit echter Leidenschaft für Immobilien – und für Ihre Ziele.</p>
     </div>
     <div class="team-grid">
       <div class="team-card reveal">
-        <div class="team-card__photo">
-          <img src="assets/images/team-steiner-processed.jpg"
-               alt="Andreas Steiner, Geschäftsführer Reasco Immobilien AG"
-               loading="lazy" width="96" height="96">
-        </div>
+        <div class="team-card__photo"><img src="assets/images/team-steiner-processed.jpg" alt="Andreas Steiner" loading="lazy" width="96" height="96"></div>
         <h3 class="team-card__name">Andreas Steiner</h3>
         <div class="team-card__title">Geschäftsführer</div>
         <p class="team-card__cred">MBA International Property Management<br>dipl. Wirtschafter FH</p>
-        <div class="team-card__contact">
-          <a href="tel:+41525510777">+41 52 551 07 77</a>
-        </div>
+        <div class="team-card__contact"><a href="tel:+41525510777">+41 52 551 07 77</a></div>
       </div>
-
       <div class="team-card reveal reveal-delay-1">
-        <div class="team-card__photo">
-          <img src="assets/images/team-bettina-blank.jpg"
-               alt="Bettina Blank, Teamleiterin Vermarktung"
-               loading="lazy" width="96" height="96">
-        </div>
+        <div class="team-card__photo"><img src="assets/images/team-bettina-blank.jpg" alt="Bettina Blank" loading="lazy" width="96" height="96"></div>
         <h3 class="team-card__name">Bettina Blank</h3>
         <div class="team-card__title">Teamleiterin Vermarktung</div>
         <p class="team-card__cred">Juristin<br>Spezialistin Immobilienmärkte CH</p>
-        <div class="team-card__contact">
-          <a href="mailto:vermarktung@reasco.immo">vermarktung@reasco.immo</a>
-        </div>
+        <div class="team-card__contact"><a href="mailto:vermarktung@reasco.immo">vermarktung@reasco.immo</a></div>
       </div>
-
       <div class="team-card reveal reveal-delay-2">
-        <div class="team-card__photo">
-          <img src="assets/images/team-ursula.jpg"
-               alt="Ursula Eberhart, Immobilienvermarktung"
-               loading="lazy" width="96" height="96">
-        </div>
+        <div class="team-card__photo"><img src="assets/images/team-ursula.jpg" alt="Ursula Eberhart" loading="lazy" width="96" height="96"></div>
         <h3 class="team-card__name">Ursula Eberhart</h3>
         <div class="team-card__title">Immobilienvermarktung</div>
-        <p class="team-card__cred">Spezialistin Wohn- &amp; Gewerbeimmobilien<br>Region Schaffhausen / Thurgau</p>
-        <div class="team-card__contact">
-          <a href="mailto:vermarktung@reasco.immo">vermarktung@reasco.immo</a>
-        </div>
+        <p class="team-card__cred">Spezialistin Wohn- &amp; Gewerbeimmobilien</p>
+        <div class="team-card__contact"><a href="mailto:vermarktung@reasco.immo">vermarktung@reasco.immo</a></div>
       </div>
     </div>
-    <div style="text-align:center; margin-top:2.5rem;">
-      <a href="ueber-uns/" class="btn btn--outline reveal">
-        Alle Teammitglieder
-        <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
-      </a>
+    <div style="text-align:center;margin-top:2.5rem;">
+      <a href="ueber-uns/" class="btn btn--outline reveal">Alle Teammitglieder <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M5 12h14M12 5l7 7-7 7"/></svg></a>
     </div>
   </div>
 </section>
 
-<!-- ═══════════════════════════════════════════════════
+<!-- ══════════════════════════════════════════
      CTA BANNER
-═══════════════════════════════════════════════════ -->
+══════════════════════════════════════════ -->
 <section class="cta-banner" aria-labelledby="cta-heading">
+  <div class="cta-banner__bg" aria-hidden="true">
+    <img src="https://images.unsplash.com/photo-1486325212027-8081e485255e?w=1600&auto=format&q=80" alt="" loading="lazy">
+  </div>
   <div class="container">
     <p class="cta-banner__eyebrow">Bereit loszulegen?</p>
-    <h2 class="cta-banner__h2 reveal" id="cta-heading">
-      Ihr nächstes Projekt beginnt<br>mit einem Gespräch.
-    </h2>
-    <p class="cta-banner__sub reveal reveal-delay-1">
-      Vereinbaren Sie jetzt Ihr kostenloses Erstgespräch. Unverbindlich, ohne Zeitdruck –
-      wir nehmen uns die Zeit, die Ihr Projekt verdient.
-    </p>
+    <h2 class="cta-banner__h2 reveal" id="cta-heading">Ihr nächstes Projekt beginnt<br>mit einem Gespräch.</h2>
+    <p class="cta-banner__sub reveal reveal-delay-1">Vereinbaren Sie jetzt Ihr kostenloses Erstgespräch. Unverbindlich, ohne Zeitdruck – wir nehmen uns die Zeit, die Ihr Projekt verdient.</p>
     <div class="btn-group" style="justify-content:center;">
-      <a href="#kontakt" class="btn btn--outline-white btn--lg reveal reveal-delay-2">
-        Jetzt Termin anfragen
-        <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
-      </a>
+      <a href="#kontakt" class="btn btn--outline-white btn--lg reveal reveal-delay-2">Jetzt Termin anfragen <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M5 12h14M12 5l7 7-7 7"/></svg></a>
     </div>
   </div>
 </section>
 
-<!-- ═══════════════════════════════════════════════════
+<!-- ══════════════════════════════════════════
      CONTACT
-═══════════════════════════════════════════════════ -->
+══════════════════════════════════════════ -->
 <section class="section" id="kontakt" aria-labelledby="kontakt-heading">
   <div class="container">
     <div class="section-header">
       <span class="label">Kontakt</span>
       <h2 class="section-heading reveal" id="kontakt-heading">Sprechen Sie mit uns.</h2>
-      <p class="section-sub reveal reveal-delay-1">
-        Erzählen Sie uns von Ihrem Projekt – wir melden uns innerhalb von 24 Stunden.
-      </p>
+      <p class="section-sub reveal reveal-delay-1">Erzählen Sie uns von Ihrem Projekt – wir melden uns innerhalb von 24 Stunden.</p>
     </div>
     <div class="contact-grid">
-      <!-- Info -->
       <div class="contact-info reveal">
         <img src="assets/images/logo.svg" alt="Reasco Immobilien AG" class="contact-info__logo" width="110" height="20">
-        <address class="contact-info__addr" style="font-style:normal;">
-          SIG Areal, Bau 53<br>
-          Industrieplatz 1e<br>
-          CH-8212 Neuhausen am Rheinfall
-        </address>
-
+        <address class="contact-info__addr" style="font-style:normal;">SIG Areal, Bau 53<br>Industrieplatz 1e<br>CH-8212 Neuhausen am Rheinfall</address>
         <div class="contact-info__items">
           <div class="contact-item">
-            <div class="contact-item__icon" aria-hidden="true">
-              <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 16.92v3a2 2 0 01-2.18 2 19.79 19.79 0 01-8.63-3.07 19.5 19.5 0 01-6-6 19.79 19.79 0 01-3.07-8.67A2 2 0 014.11 2h3a2 2 0 012 1.72c.127.96.361 1.903.7 2.81a2 2 0 01-.45 2.11L8.09 9.91a16 16 0 006 6l1.27-1.27a2 2 0 012.11-.45c.907.339 1.85.573 2.81.7A2 2 0 0122 16.92z"/></svg>
-            </div>
-            <div>
-              <div class="contact-item__label">Telefon</div>
-              <div class="contact-item__value"><a href="tel:+41525510777">+41 52 551 07 77</a></div>
-            </div>
+            <div class="contact-item__icon"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 16.92v3a2 2 0 01-2.18 2 19.79 19.79 0 01-8.63-3.07A19.5 19.5 0 014.11 2h3a2 2 0 012 1.72c.127.96.361 1.903.7 2.81a2 2 0 01-.45 2.11L8.09 9.91a16 16 0 006 6l1.27-1.27a2 2 0 012.11-.45c.907.339 1.85.573 2.81.7A2 2 0 0122 16.92z"/></svg></div>
+            <div><div class="contact-item__label">Telefon</div><div class="contact-item__value"><a href="tel:+41525510777">+41 52 551 07 77</a></div></div>
           </div>
           <div class="contact-item">
-            <div class="contact-item__icon" aria-hidden="true">
-              <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><polyline points="22,6 12,13 2,6"/></svg>
-            </div>
-            <div>
-              <div class="contact-item__label">E-Mail allgemein</div>
-              <div class="contact-item__value"><a href="mailto:info@reasco.immo">info@reasco.immo</a></div>
-            </div>
+            <div class="contact-item__icon"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><polyline points="22,6 12,13 2,6"/></svg></div>
+            <div><div class="contact-item__label">E-Mail</div><div class="contact-item__value"><a href="mailto:info@reasco.immo">info@reasco.immo</a></div></div>
           </div>
           <div class="contact-item">
-            <div class="contact-item__icon" aria-hidden="true">
-              <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><polyline points="22,6 12,13 2,6"/></svg>
-            </div>
-            <div>
-              <div class="contact-item__label">E-Mail Vermarktung</div>
-              <div class="contact-item__value"><a href="mailto:vermarktung@reasco.immo">vermarktung@reasco.immo</a></div>
-            </div>
+            <div class="contact-item__icon"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><polyline points="22,6 12,13 2,6"/></svg></div>
+            <div><div class="contact-item__label">Vermarktung</div><div class="contact-item__value"><a href="mailto:vermarktung@reasco.immo">vermarktung@reasco.immo</a></div></div>
           </div>
         </div>
-
         <div class="contact-info__hours">
           <div class="contact-info__hours-title">Bürozeiten</div>
-          <p>Montag – Freitag: 08:00 – 17:30 Uhr<br>Termine auch ausserhalb der Bürozeiten nach Vereinbarung.</p>
+          <p>Montag – Freitag: 08:00 – 17:30 Uhr<br>Termine auch ausserhalb nach Vereinbarung.</p>
         </div>
       </div>
-
-      <!-- Form -->
       <div class="contact-form-box reveal reveal-delay-1">
         <h3 class="contact-form-box__title">Schreiben Sie uns</h3>
         <form class="contact-form" method="post" novalidate>
           <div class="form-row">
-            <div class="form-group">
-              <label class="form-label" for="name">Name <sup>*</sup></label>
-              <input class="form-input" type="text" id="name" name="name" placeholder="Ihr vollständiger Name" required autocomplete="name">
-            </div>
-            <div class="form-group">
-              <label class="form-label" for="email">E-Mail <sup>*</sup></label>
-              <input class="form-input" type="email" id="email" name="email" placeholder="ihre@adresse.ch" required autocomplete="email">
-            </div>
+            <div class="form-group"><label class="form-label" for="name">Name <sup>*</sup></label><input class="form-input" type="text" id="name" name="name" placeholder="Ihr vollständiger Name" required autocomplete="name"></div>
+            <div class="form-group"><label class="form-label" for="email">E-Mail <sup>*</sup></label><input class="form-input" type="email" id="email" name="email" placeholder="ihre@adresse.ch" required autocomplete="email"></div>
           </div>
           <div class="form-row">
-            <div class="form-group">
-              <label class="form-label" for="phone">Telefon</label>
-              <input class="form-input" type="tel" id="phone" name="phone" placeholder="+41 XX XXX XX XX" autocomplete="tel">
-            </div>
+            <div class="form-group"><label class="form-label" for="phone">Telefon</label><input class="form-input" type="tel" id="phone" name="phone" placeholder="+41 XX XXX XX XX" autocomplete="tel"></div>
             <div class="form-group">
               <label class="form-label" for="subject">Betreff <sup>*</sup></label>
-              <div class="form-select-wrap">
-                <select class="form-select" id="subject" name="subject" required>
-                  <option value="">Bitte wählen…</option>
-                  <option>Bauherrenberatung</option>
-                  <option>Architektur &amp; Bauleitung</option>
-                  <option>GU-Mandat</option>
-                  <option>Immobilienvermarktung</option>
-                  <option>Energieberatung</option>
-                  <option>Nachlassplanung</option>
-                  <option>Allgemeine Anfrage</option>
-                </select>
-              </div>
+              <div class="form-select-wrap"><select class="form-select" id="subject" name="subject" required><option value="">Bitte wählen…</option><option>Bauherrenberatung</option><option>Architektur &amp; Bauleitung</option><option>GU-Mandat</option><option>Immobilienvermarktung</option><option>Energieberatung</option><option>Nachlassplanung</option><option>Allgemeine Anfrage</option></select></div>
             </div>
           </div>
-          <div class="form-group">
-            <label class="form-label" for="message">Ihre Nachricht <sup>*</sup></label>
-            <textarea class="form-textarea" id="message" name="message" placeholder="Beschreiben Sie kurz Ihr Projekt oder Ihre Frage…" required></textarea>
-          </div>
-          <div class="form-checkbox-row">
-            <input type="checkbox" id="privacy" name="privacy" class="form-checkbox" required>
-            <label for="privacy">Ich habe die <a href="datenschutz/">Datenschutzerklärung</a> gelesen und bin mit der Verarbeitung meiner Daten einverstanden. <sup>*</sup></label>
-          </div>
-          <button type="submit" class="btn btn--primary btn--lg" style="width:100%;justify-content:center;">
-            Nachricht senden
-            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
-          </button>
+          <div class="form-group"><label class="form-label" for="message">Ihre Nachricht <sup>*</sup></label><textarea class="form-textarea" id="message" name="message" placeholder="Beschreiben Sie kurz Ihr Projekt…" required></textarea></div>
+          <div class="form-checkbox-row"><input type="checkbox" id="privacy" name="privacy" class="form-checkbox" required><label for="privacy">Ich habe die <a href="datenschutz/">Datenschutzerklärung</a> gelesen und bin einverstanden. <sup>*</sup></label></div>
+          <button type="submit" class="btn btn--primary btn--lg" style="width:100%;justify-content:center;">Nachricht senden <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M5 12h14M12 5l7 7-7 7"/></svg></button>
         </form>
       </div>
     </div>
@@ -778,35 +572,20 @@
 
 </main>
 
-<!-- ═══════════════════════════════════════════════════
-     FOOTER
-═══════════════════════════════════════════════════ -->
+<!-- FOOTER -->
 <footer class="site-footer" role="contentinfo">
   <div class="container">
     <div class="footer-grid">
-      <!-- Brand -->
       <div>
         <img src="assets/images/logo.svg" alt="Reasco Immobilien AG" class="footer__logo" width="110" height="20">
         <p class="footer__tagline">Wir bringen Ihre Immobilie ans Ziel.</p>
-        <p class="footer__desc">
-          Kompetente Bauherrenberatung, Architektur, Vermarktung und
-          Energieberatung für Eigentümer und Investoren in der Region
-          Schaffhausen, Thurgau und Zürich.
-        </p>
-        <div class="footer__social" aria-label="Social Media">
-          <a href="https://www.linkedin.com" class="footer__social-link" aria-label="LinkedIn" rel="noopener noreferrer" target="_blank">
-            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75"><path d="M16 8a6 6 0 016 6v7h-4v-7a2 2 0 00-2-2 2 2 0 00-2 2v7h-4v-7a6 6 0 016-6z"/><rect x="2" y="9" width="4" height="12"/><circle cx="4" cy="4" r="2"/></svg>
-          </a>
-          <a href="https://www.facebook.com" class="footer__social-link" aria-label="Facebook" rel="noopener noreferrer" target="_blank">
-            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75"><path d="M18 2h-3a5 5 0 00-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 011-1h3z"/></svg>
-          </a>
-          <a href="https://www.instagram.com" class="footer__social-link" aria-label="Instagram" rel="noopener noreferrer" target="_blank">
-            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75"><rect x="2" y="2" width="20" height="20" rx="5"/><path d="M16 11.37A4 4 0 1112.63 8 4 4 0 0116 11.37z"/><line x1="17.5" y1="6.5" x2="17.51" y2="6.5"/></svg>
-          </a>
+        <p class="footer__desc">Kompetente Bauherrenberatung, Architektur, Vermarktung und Energieberatung für Eigentümer und Investoren in der Region Schaffhausen, Thurgau und Zürich.</p>
+        <div class="footer__social">
+          <a href="https://www.linkedin.com" class="footer__social-link" aria-label="LinkedIn" rel="noopener noreferrer" target="_blank"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75"><path d="M16 8a6 6 0 016 6v7h-4v-7a2 2 0 00-2-2 2 2 0 00-2 2v7h-4v-7a6 6 0 016-6z"/><rect x="2" y="9" width="4" height="12"/><circle cx="4" cy="4" r="2"/></svg></a>
+          <a href="https://www.facebook.com" class="footer__social-link" aria-label="Facebook" rel="noopener noreferrer" target="_blank"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75"><path d="M18 2h-3a5 5 0 00-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 011-1h3z"/></svg></a>
+          <a href="https://www.instagram.com" class="footer__social-link" aria-label="Instagram" rel="noopener noreferrer" target="_blank"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75"><rect x="2" y="2" width="20" height="20" rx="5"/><path d="M16 11.37A4 4 0 1112.63 8 4 4 0 0116 11.37z"/><line x1="17.5" y1="6.5" x2="17.51" y2="6.5"/></svg></a>
         </div>
       </div>
-
-      <!-- Leistungen -->
       <nav aria-label="Leistungen">
         <h3 class="footer-nav__title">Leistungen</h3>
         <ul class="footer-nav__list">
@@ -817,45 +596,25 @@
           <li><a href="energieberatung/" class="footer-nav__link">Energieberatung</a></li>
         </ul>
       </nav>
-
-      <!-- Unternehmen -->
       <nav aria-label="Unternehmen">
         <h3 class="footer-nav__title">Unternehmen</h3>
         <ul class="footer-nav__list">
           <li><a href="ueber-uns/" class="footer-nav__link">Über uns</a></li>
           <li><a href="ueber-uns/#team" class="footer-nav__link">Team</a></li>
           <li><a href="ueber-uns/#karriere" class="footer-nav__link">Karriere</a></li>
-          <li><a href="ueber-uns/#mitgliedschaften" class="footer-nav__link">Mitgliedschaften</a></li>
           <li><a href="kontakt/" class="footer-nav__link">Kontakt</a></li>
         </ul>
       </nav>
-
-      <!-- Kontakt -->
       <div>
         <h3 class="footer-nav__title">Kontakt</h3>
-        <div class="footer-contact__item">
-          <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M21 10c0 7-9 13-9 13S3 17 3 10a9 9 0 0118 0z"/><circle cx="12" cy="10" r="3"/></svg>
-          <p>SIG Areal, Bau 53<br>Industrieplatz 1e<br>CH-8212 Neuhausen am Rheinfall</p>
-        </div>
-        <div class="footer-contact__item">
-          <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M22 16.92v3a2 2 0 01-2.18 2 19.79 19.79 0 01-8.63-3.07A19.5 19.5 0 014.11 2h3a2 2 0 012 1.72c.127.96.361 1.903.7 2.81a2 2 0 01-.45 2.11L8.09 9.91a16 16 0 006 6l1.27-1.27a2 2 0 012.11-.45c.907.339 1.85.573 2.81.7A2 2 0 0122 16.92z"/></svg>
-          <a href="tel:+41525510777">+41 52 551 07 77</a>
-        </div>
-        <div class="footer-contact__item">
-          <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><polyline points="22,6 12,13 2,6"/></svg>
-          <a href="mailto:info@reasco.immo">info@reasco.immo</a>
-        </div>
+        <div class="footer-contact__item"><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 10c0 7-9 13-9 13S3 17 3 10a9 9 0 0118 0z"/><circle cx="12" cy="10" r="3"/></svg><p>SIG Areal, Bau 53<br>Industrieplatz 1e<br>CH-8212 Neuhausen am Rheinfall</p></div>
+        <div class="footer-contact__item"><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 16.92v3a2 2 0 01-2.18 2 19.79 19.79 0 01-8.63-3.07A19.5 19.5 0 014.11 2h3a2 2 0 012 1.72c.127.96.361 1.903.7 2.81a2 2 0 01-.45 2.11L8.09 9.91a16 16 0 006 6l1.27-1.27a2 2 0 012.11-.45c.907.339 1.85.573 2.81.7A2 2 0 0122 16.92z"/></svg><a href="tel:+41525510777">+41 52 551 07 77</a></div>
+        <div class="footer-contact__item"><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><polyline points="22,6 12,13 2,6"/></svg><a href="mailto:info@reasco.immo">info@reasco.immo</a></div>
       </div>
     </div>
-
     <div class="footer-bottom">
-      <p class="footer-bottom__copy">
-        &copy; <script>document.write(new Date().getFullYear())</script> Reasco Immobilien AG. Alle Rechte vorbehalten.
-      </p>
-      <nav class="footer-bottom__legal" aria-label="Rechtliches">
-        <a href="datenschutz/">Datenschutz</a>
-        <a href="impressum/">Impressum</a>
-      </nav>
+      <p class="footer-bottom__copy">&copy; <script>document.write(new Date().getFullYear())</script> Reasco Immobilien AG. Alle Rechte vorbehalten.</p>
+      <nav class="footer-bottom__legal"><a href="datenschutz/">Datenschutz</a><a href="impressum/">Impressum</a></nav>
     </div>
   </div>
 </footer>
